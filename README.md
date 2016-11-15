@@ -1,0 +1,1 @@
+# adidas-wait-page-simulator

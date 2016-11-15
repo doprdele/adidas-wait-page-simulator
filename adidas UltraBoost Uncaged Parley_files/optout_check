@@ -1,0 +1,4 @@
+Krux.ns.adidas.kxjsonp_optOutCheck({
+  status: 200,
+  body: {  }
+});

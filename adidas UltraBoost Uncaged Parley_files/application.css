@@ -1,0 +1,1205 @@
+/* COLORS */
+/* MAIN BREAKING POINTS */
+html {
+  height: 100%;
+}
+
+div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, button, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  max-height: initial;
+}
+
+.adi-yeezy-site {
+  background-color: #ffffff;
+  height: 100%;
+}
+.adi-yeezy-site .hidden {
+  display: none;
+}
+.adi-yeezy-site #header {
+  float: none;
+}
+.adi-yeezy-site .kw *, .adi-yeezy-site .kw *:before, .adi-yeezy-site .kw *:after, .adi-yeezy-site .modal *, .adi-yeezy-site .modal *:before, .adi-yeezy-site .modal *:after {
+  box-sizing: initial;
+}
+.adi-yeezy-site.desktop #footer {
+  padding: 0;
+}
+.adi-yeezy-site.desktop .footer-actions-container {
+  display: none;
+}
+.adi-yeezy-site.mobile .footer-actions-container #newsletter {
+  display: none;
+}
+
+.backdrop {
+  background: black;
+  position: absolute;
+  position: fixed;
+  z-index: 99998;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background: #ffffff;
+  color: #212121;
+  z-index: 99999;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.modal .inner {
+  position: relative;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+}
+.modal iframe {
+  border: none;
+}
+.modal a.close {
+  position: absolute;
+  display: block;
+  right: 20px;
+  top: 23px;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  z-index: 999999;
+}
+.modal a.close img {
+  display: block;
+  float: right;
+}
+
+.custom-c .top {
+  background: #000;
+  height: 60px;
+  width: 100%;
+  font-family: adihausregular, Arial, Helvetica, Verdana, sans-serif;
+  font-size: 16px;
+  text-transform: initial;
+}
+.custom-c .top .inner {
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+}
+.custom-c .top ul {
+  list-style: none;
+  margin: 0;
+  padding: 3px 0px;
+}
+.custom-c .top ul li {
+  float: left;
+}
+.custom-c .top a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+.custom-c .top .logo {
+  padding: 10px;
+  margin: 0;
+  /*padding: 15px 0 15px 5%;
+  width: 30%;*/
+  float: left;
+}
+.custom-c .top .logo img {
+  /**width: 100%;**/
+}
+.custom-c .top .menu a {
+  font-weight: bold;
+  padding: 10px;
+}
+.custom-c .top .ecom {
+  float: right;
+}
+.custom-c .top .ecom .my-account a {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAABgCAYAAABbjPFwAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTYwODdFQjZENUZCMTFFMzlCNDRCQjgzNTVEQzUwMUQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RTYwODdFQjdENUZCMTFFMzlCNDRCQjgzNTVEQzUwMUQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFNjA4N0VCNEQ1RkIxMUUzOUI0NEJCODM1NURDNTAxRCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFNjA4N0VCNUQ1RkIxMUUzOUI0NEJCODM1NURDNTAxRCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PoWGHI4AAAIWSURBVHja7Jo/SwMxGIdzVkG6iA5CB4uKiyIO/utQ16qbULXYD+AmCG7ODn4AcVYRdREHHYROgk5WXBRBEAcXnRxEqIJy/o5mqLU9pXklKfxeeKC9XHr3JJfcXfN6vu+reo4GVedBAQpQgAIUoAAFKECBOo7Gf/rdLjAPBsAbOAGb4FX8SMH7gDAZUPB/xj3okT6eJ/xCEwe3oLlKeR6MujwGZkNOPogR0OuyQJvQPtYE8r+UBwP6ymWBQ3AaUr4CXlwViIA5MAU2wEdJ2TNYBNtgQe/r1DQaBTk9XZ6BIdAKkvpzVE+vj3qfnN7mxDTqgX2QLtv+AO5Ak76htZSVH4CZoA1t90DWrz2ytnsgaP1r0Fdj/RvQb9ILpoM4YXDyStdN2JyFJgTmkUmbAgkBgWGbAp0CAt02BWICAjGbAlEBgWabAgUBgXejeZwrNBSgAAUoQAEKUIACFKAABShAAQpQgAIUoAAFKFB/YZwvFFm9rLT5z/lCn8uDdgUqRAZsqe//+0+DJTCuimvHzl5C8QonX9oru66PAeYL2RZgvpBNASv5QlICwXLrMdgBR2AdtIMxVVyJ7wBP4Bys6X0llmhF7gOebtmU/p4EFyo8Xyil6xjnC0kIBJdNuso9IR5SL63r7hm1nsk6MR4jRPKF8DjBfKFag/lCivlCZsF8IcV8IeYLUYACFKAABShAAQpQwFZ8CTAAKOIsAOezAn0AAAAASUVORK5CYII=");
+  height: 48px;
+  width: 48px;
+}
+.custom-c .top .ecom .cart a {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAABgCAYAAABbjPFwAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0FBQzAzRjNENjAxMTFFMzgzNzVBNzExQTFBM0JERjMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0FBQzAzRjRENjAxMTFFMzgzNzVBNzExQTFBM0JERjMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3QUFDMDNGMUQ2MDExMUUzODM3NUE3MTFBMUEzQkRGMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3QUFDMDNGMkQ2MDExMUUzODM3NUE3MTFBMUEzQkRGMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PinkS/EAAAHFSURBVHja7Jq9SgNBFEZ3jf8i+NOIL2AnYiPYWFv4HD6AjRamEETB0jdQEAQLEfQRLNXWxkYbkzQKRgyG9RucImiKhDs6Dp4Lh5Bld2dP5l52NnvzoiiylKMnSzwQQAABBBBAAAEEEEDgW0yLA3EjLsW1WBelVASOxLGYE4tiQUx5iSQEBsV5y/eG2BZLqQj0tdn2JvpDD9T7Axc/5C/WxYoYEXVxJsZDD5Ybn4m3xIwYEGP+Aic8TiRv2fddvIpH8SSe/adLr1tRjiHwIoYD/JB1P1O/XgO1QJlQi1XElUAClVgC1UACVQSoAWrgn6ZQHuDfaesap+Hv5NEWc9Y0uou9Gr0wHn9iOtqlkBGXhoeiVnQX92LfOn7OGxoEEEAAAQQQQAABBBBAAAEEEEAAAQQQQACB9MLcK1HauWq32fUL7YrZ7PMtvGs7cO03e6LZumNzY/5PzgD9QrEF6BfqNExvaFTAwfqFVMzlGDOwlnXeL+TGGvV8DTdD5Rg1QK+E9Tz0C6UuQA1QA6mnkLlXQndjc7+Q7sL0C1kiar9QiNXoql+4LYvJLo57EKdKn81oq1Ee6hFAAAEEEEAAAQQQMMWHAAMAE/4bMQnnJ1UAAAAASUVORK5CYII=");
+  height: 48px;
+  width: 48px;
+}
+.custom-c .bottom {
+  width: 90%;
+  height: 35px;
+  padding: 20px 5% 0;
+  background-color: #333436;
+  font-family: adihausregular, Arial, Helvetica, Verdana, sans-serif;
+  font-weight: normal;
+  text-transform: initial;
+}
+.custom-c .bottom .links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.custom-c .bottom .links .link {
+  float: left;
+  font-size: 12px;
+  text-align: center;
+  padding: 0 10px 0 0;
+  margin: 0 10px 0 0;
+  border-right: 1px solid #fff;
+}
+.custom-c .bottom .links .link:last-child {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.custom-c .bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+.custom-c.desktop .top {
+  height: 60px;
+}
+.custom-c.desktop .top .ecom a {
+  background-position: top;
+}
+.custom-c.desktop .top .my-account a {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAABgCAYAAABbjPFwAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTYwODdFQjZENUZCMTFFMzlCNDRCQjgzNTVEQzUwMUQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RTYwODdFQjdENUZCMTFFMzlCNDRCQjgzNTVEQzUwMUQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFNjA4N0VCNEQ1RkIxMUUzOUI0NEJCODM1NURDNTAxRCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFNjA4N0VCNUQ1RkIxMUUzOUI0NEJCODM1NURDNTAxRCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PoWGHI4AAAIWSURBVHja7Jo/SwMxGIdzVkG6iA5CB4uKiyIO/utQ16qbULXYD+AmCG7ODn4AcVYRdREHHYROgk5WXBRBEAcXnRxEqIJy/o5mqLU9pXklKfxeeKC9XHr3JJfcXfN6vu+reo4GVedBAQpQgAIUoAAFKECBOo7Gf/rdLjAPBsAbOAGb4FX8SMH7gDAZUPB/xj3okT6eJ/xCEwe3oLlKeR6MujwGZkNOPogR0OuyQJvQPtYE8r+UBwP6ymWBQ3AaUr4CXlwViIA5MAU2wEdJ2TNYBNtgQe/r1DQaBTk9XZ6BIdAKkvpzVE+vj3qfnN7mxDTqgX2QLtv+AO5Ak76htZSVH4CZoA1t90DWrz2ytnsgaP1r0Fdj/RvQb9ILpoM4YXDyStdN2JyFJgTmkUmbAgkBgWGbAp0CAt02BWICAjGbAlEBgWabAgUBgXejeZwrNBSgAAUoQAEKUIACFKAABShAAQpQgAIUoAAFKFB/YZwvFFm9rLT5z/lCn8uDdgUqRAZsqe//+0+DJTCuimvHzl5C8QonX9oru66PAeYL2RZgvpBNASv5QlICwXLrMdgBR2AdtIMxVVyJ7wBP4Bys6X0llmhF7gOebtmU/p4EFyo8Xyil6xjnC0kIBJdNuso9IR5SL63r7hm1nsk6MR4jRPKF8DjBfKFag/lCivlCZsF8IcV8IeYLUYACFKAABShAAQpQwFZ8CTAAKOIsAOezAn0AAAAASUVORK5CYII=");
+  cursor: pointer;
+  height: 48px;
+  width: 48px;
+}
+.custom-c.desktop .top .cart a {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAABgCAYAAABbjPFwAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0FBQzAzRjNENjAxMTFFMzgzNzVBNzExQTFBM0JERjMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0FBQzAzRjRENjAxMTFFMzgzNzVBNzExQTFBM0JERjMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3QUFDMDNGMUQ2MDExMUUzODM3NUE3MTFBMUEzQkRGMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3QUFDMDNGMkQ2MDExMUUzODM3NUE3MTFBMUEzQkRGMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PinkS/EAAAHFSURBVHja7Jq9SgNBFEZ3jf8i+NOIL2AnYiPYWFv4HD6AjRamEETB0jdQEAQLEfQRLNXWxkYbkzQKRgyG9RucImiKhDs6Dp4Lh5Bld2dP5l52NnvzoiiylKMnSzwQQAABBBBAAAEEEEDgW0yLA3EjLsW1WBelVASOxLGYE4tiQUx5iSQEBsV5y/eG2BZLqQj0tdn2JvpDD9T7Axc/5C/WxYoYEXVxJsZDD5Ybn4m3xIwYEGP+Aic8TiRv2fddvIpH8SSe/adLr1tRjiHwIoYD/JB1P1O/XgO1QJlQi1XElUAClVgC1UACVQSoAWrgn6ZQHuDfaesap+Hv5NEWc9Y0uou9Gr0wHn9iOtqlkBGXhoeiVnQX92LfOn7OGxoEEEAAAQQQQAABBBBAAAEEEEAAAQQQQACB9MLcK1HauWq32fUL7YrZ7PMtvGs7cO03e6LZumNzY/5PzgD9QrEF6BfqNExvaFTAwfqFVMzlGDOwlnXeL+TGGvV8DTdD5Rg1QK+E9Tz0C6UuQA1QA6mnkLlXQndjc7+Q7sL0C1kiar9QiNXoql+4LYvJLo57EKdKn81oq1Ee6hFAAAEEEEAAAQQQMMWHAAMAE/4bMQnnJ1UAAAAASUVORK5CYII=");
+  height: 48px;
+  width: 48px;
+}
+.custom-c.desktop .bottom-spacer {
+  height: 40px;
+}
+.custom-c.desktop .bottom {
+  width: 100%;
+  background-color: #333436;
+  height: 40px;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+}
+.custom-c.desktop .bottom .inner {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  clear: both;
+}
+.custom-c.desktop .bottom .links {
+  margin: 15px 0 0;
+}
+.custom-c.desktop .bottom .links .link {
+  font-size: 12px;
+}
+
+.modal #storefinder {
+  width: auto;
+  padding: 2%;
+}
+.modal #storefinder .resultTemplate {
+  display: none;
+}
+.modal #storefinder h1 {
+  margin: 0;
+  background-color: #ffffff;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 5%;
+  width: auto;
+  font-family: adihausbold, Arial;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+@media screen and (min-width: 768px) {
+  .modal #storefinder h1 {
+    padding: 10px 2%;
+    font-size: 27px;
+  }
+}
+.modal #storefinder .results {
+  min-height: 385px;
+}
+.modal #storefinder .results.loading {
+  text-align: center;
+  padding: 20px 0 0;
+}
+.modal #storefinder .results.loading img {
+  display: block;
+  margin: 0 auto 20px;
+}
+.modal #storefinder .results h3 {
+  background-color: #ffffff;
+  color: #ffffff;
+  font-family: adihausbold, Arial;
+  padding: 5px 0 5px 5%;
+  width: auto;
+  font-size: 20px;
+  clear: left;
+  text-decoration: uppercase;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+@media screen and (min-width: 768px) {
+  .modal #storefinder .results h3 {
+    padding: 5px 0 5px 2%;
+    font-size: 27px;
+  }
+}
+.modal #storefinder .results a {
+  color: #212121;
+  text-decoration: underline;
+}
+.modal #storefinder .results a:hover {
+  text-decoration: none;
+}
+.modal #storefinder .results .result {
+  margin-bottom: 25px;
+  padding-left: 5%;
+  width: 95%;
+  overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  .modal #storefinder .results .result {
+    padding-left: 2%;
+    width: 48%;
+    float: left;
+    min-height: 160px;
+  }
+}
+.modal #storefinder .results .result h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: adihausbold, Arial;
+  font-weight: bold;
+  line-height: 1.4;
+}
+@media screen and (min-width: 768px) {
+  .modal #storefinder .results .result h4 {
+    font-size: 21px;
+  }
+}
+.modal #storefinder .results .result p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: adihausbold, Arial;
+  color: #212121;
+}
+@media screen and (min-width: 768px) {
+  .modal #storefinder .results .result p {
+    font-size: 21px;
+  }
+}
+.modal #storefinder .results .result .confirmed-app {
+  padding: 10px 0 0;
+  overflow: hidden;
+}
+.modal #storefinder .results .result .confirmed-app .logo {
+  padding: 0 30px 0 0;
+  float: left;
+}
+.modal #storefinder .results .result .confirmed-app .copy {
+  float: left;
+  max-width: 100px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-family: adihausbold, Arial;
+}
+.modal #getupdates {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+.modal #sizeChart {
+  width: 96%;
+  height: auto;
+  background: #ffffff;
+  color: #212121;
+  text-align: center;
+  padding: 60px 2% 40px;
+}
+.modal #sizeChart table {
+  width: 100%;
+}
+.modal #sizeChart table td {
+  padding: 5px 10px;
+}
+
+#badBrowser {
+  background: #ffffff;
+  color: #212121;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+#badBrowser h1, #badBrowser h2, #badBrowser h3 {
+  font-family: adihausbold, Arial !important;
+  text-transform: uppercase;
+  padding: 20px 2%;
+  font-size: 18px;
+  margin: 0;
+}
+
+.kw {
+  background: #ffffff;
+  color: #212121;
+  line-height: 1.4;
+  font-family: adihausregular, Arial;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  min-height: 100%;
+  /* GLOBAL SECTIONS STYLES */
+  /* SECTION SPECIFIC STYLES */
+  /* In line styles (static html page) */
+  /* Work around and conflict fix with Adidas CSS
+   * Only for Type B when Adidas DW headers are used
+   */
+}
+.kw .clearfix {
+  clear: both;
+  display: block;
+  height: 1px;
+  visibility: hidden;
+}
+.kw a {
+  text-decoration: none;
+}
+.kw .btn {
+  background: #f3b386;
+  display: inline-block;
+  color: #212121;
+  text-decoration: none;
+  padding: 14px 0;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: adihausbold, Arial;
+  min-width: 120px;
+  text-align: center;
+  transition: opacity 0.6s;
+}
+.kw .btn.light {
+  background: #212121;
+  color: #ffffff;
+}
+.kw .btn:hover {
+  opacity: 0.8;
+}
+.kw .btn img {
+  display: inline-block;
+  vertical-align: -2px;
+  margin-left: 20px;
+}
+.kw .btn-grp {
+  text-align: center;
+}
+.kw .btn-grp .btn {
+  margin: 0 3% 0 0;
+  width: 48.5%;
+}
+.kw .btn-grp .btn:last-child {
+  margin: 0;
+}
+.kw .section {
+  width: 100%;
+}
+.kw .section .inner {
+  width: 90%;
+  max-width: 950px;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: initial;
+}
+.kw #logo {
+  background-color: #ffffff;
+  color: #000;
+}
+.kw #logo .inner {
+  text-align: left;
+  padding: 4px 0 100px;
+}
+@media screen and (max-width: 340px) {
+  .kw #logo .inner {
+    padding: 1px 0 70px;
+  }
+}
+.kw #logo .site-title {
+  font-size: 20px;
+  margin: 10px 0 30px;
+}
+.kw .gallery-cart-wrapper {
+  background: #ffffff;
+  color: #212121;
+}
+.kw .gallery-cart-wrapper > .inner {
+  width: 100%;
+  max-width: 950px;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.kw #intro p {
+  margin: 0 auto;
+}
+.kw #intro .name,
+.kw #intro .made-by {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+.kw #gallery {
+  overflow: hidden;
+}
+.kw #gallery > .inner {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 20px;
+}
+.kw #gallery .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.kw #gallery .owl-page {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #212121;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px 5px 0;
+  transition: background 0.5s;
+}
+.kw #gallery .owl-page.active {
+  background-color: #212121;
+}
+.kw #gallery .owl-prev,
+.kw #gallery .owl-next {
+  display: none;
+}
+.kw #shoe .inner {
+  padding-top: 0;
+}
+.kw #shoe .state {
+  text-align: left;
+}
+.kw #shoe .state h2 {
+  font-size: 20px;
+}
+.kw #shoe .state .try-again {
+  padding: 13px 10px;
+}
+.kw #shoe .copy {
+  margin: 20px 0 0;
+  line-height: 1.3;
+  font-size: 14px;
+}
+.kw #shoe .no-discount {
+  font-size: 16px;
+}
+.kw #shoe .coming_soon p {
+  margin: 0 auto 50px;
+  width: 100%;
+  text-align: center;
+}
+.kw #shoe .coming_soon .coming-soon-btn {
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+.kw #shoe .coming_soon .coming-soon-btn[disabled="disabled"], .kw #shoe .coming_soon .coming-soon-btn:focus {
+  cursor: default;
+  opacity: 0.5;
+}
+.kw #shoe .checkout .btn {
+  width: 100%;
+}
+.kw #shoe .cart #flashproductform {
+  position: relative;
+}
+.kw #shoe .cart .inventory_error {
+  margin: 40px 0;
+  font-size: 16px;
+  line-height: 1.3;
+}
+.kw #shoe .cart .inventory_error .title {
+  margin: 0 0 20px;
+}
+.kw #shoe .cart .err {
+  color: #da1f31;
+  font-size: 14px;
+}
+.kw #shoe .cart .add-to-cart-error {
+  padding: 20px 0 0;
+}
+.kw #shoe .cart .price {
+  font-size: 24px;
+  margin: 30px 0 15px 0;
+  font-weight: bold;
+  font-family: adihausbold, Arial;
+}
+.kw #shoe .cart .size-select {
+  position: relative;
+  float: left;
+  width: 75%;
+}
+.kw #shoe .cart .size-select.over .opener {
+  border-bottom: none !important;
+}
+.kw #shoe .cart .size-select.over .opener .down {
+  display: none;
+}
+.kw #shoe .cart .size-select.over .opener .up {
+  display: block;
+}
+.kw #shoe .cart .size-select.over .sizes {
+  display: block;
+}
+.kw #shoe .cart .size-select .opener {
+  position: relative;
+  z-index: 80;
+  height: 55px;
+  width: 100%;
+  cursor: pointer;
+  color: #212121;
+  border: 2px solid #212121;
+  background: #ffffff;
+}
+.kw #shoe .cart .size-select .opener .size {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 14px 15px;
+  display: block;
+}
+.kw #shoe .cart .size-select .opener img {
+  float: right;
+  margin: 23px 15px 0 0;
+}
+.kw #shoe .cart .size-select .opener img.up {
+  display: none;
+}
+.kw #shoe .cart .size-select .sizes {
+  display: none;
+  top: 55px;
+  left: 0px;
+  min-width: 250px;
+  width: 131.7%;
+  position: absolute;
+  z-index: 70;
+  background: #ffffff;
+  padding-bottom: 5px;
+  border: 2px solid #212121;
+}
+.kw #shoe .cart .size-select .sizes p {
+  clear: both;
+  padding: 5px 13px;
+  font-size: 11px;
+  color: #212121;
+  font-weight: normal;
+}
+.kw #shoe .cart .size-select .sizes ul {
+  margin: 15px 0 0;
+  padding: 0px 15px;
+  overflow: hidden;
+}
+.kw #shoe .cart .size-select .sizes ul li {
+  float: left;
+  display: block;
+  width: 17.7%;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  background: #f3b386;
+  padding: 4% 2.5% 3%;
+  font-size: 14px;
+  color: #212121;
+  border-bottom: 4px solid #f3b386;
+  transition: border 0.8s ease;
+}
+.kw #shoe .cart .size-select .sizes ul li:nth-child(4n) {
+  margin-right: 0;
+}
+.kw #shoe .cart .size-select .sizes ul li.active, .kw #shoe .cart .size-select .sizes ul li:hover {
+  border-bottom: 4px solid #ffffff;
+}
+.kw #shoe .cart .size-chart {
+  float: right;
+  width: 25%;
+  padding: 20px 0 0;
+  text-align: right;
+  font-size: 12px;
+}
+.kw #shoe .cart .size-chart a {
+  color: #212121;
+}
+.kw #shoe .cart .add-to-bag {
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+.kw #shoe .cart .add-to-bag[disabled="disabled"] {
+  cursor: default;
+  opacity: 0.5;
+}
+.kw #shoe .cart .spinner {
+  display: none;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin: 0 0 0 -10px;
+}
+.kw #shoe .cart .add-to-bag-notice {
+  display: block;
+  color: #ffffff;
+  padding: 5px 0;
+  width: 300px;
+  text-align: center;
+  font-size: 12px;
+}
+.kw #shoe .cart #captcha {
+  height: 80px;
+  clear: both;
+  padding: 20px 0 5px;
+}
+.kw #shoe .cart .captcha-err {
+  margin-top: -5px;
+}
+.kw #shoe .cart .select-size-error,
+.kw #shoe .cart .availability-error {
+  clear: both;
+  padding: 5px 0 0;
+}
+.kw #description {
+  background-color: #ffffff;
+  color: #212121;
+}
+.kw #video .inner {
+  width: 100%;
+  padding: 0;
+  line-height: 0;
+}
+.kw #signup {
+  background: #ffffff;
+}
+.kw #signup p {
+  margin: 0 auto;
+}
+.kw #signup .name {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px auto 0;
+}
+.kw #signup .btn {
+  margin: 20px 0;
+  padding: 14px 20px;
+}
+.kw #signup .mx-legal {
+  font-size: 16px;
+  text-align: center;
+  margin: 60px 0 40px;
+}
+.kw.in-line #logo {
+  background: #ffffff;
+  color: #212121;
+}
+.kw.in-line #logo .inner {
+  padding: 20px 0 30px;
+}
+.kw.in-line #logo .spinner {
+  /**vertical-align: middle;
+  width: 40px;**/
+  margin: 0px 20px 6px 0px;
+  display: inline-block
+}
+.kw.in-line #logo .title {
+  display: inline-block;
+  line-height: 1;
+  font-size: 20px;
+}
+.kw.in-line .mx-disclaimer .mx-legal {
+  padding: 20px 0 0;
+}
+.kw.coming_soon #logo {
+  background-image: url("../images/750-grey/header-coming-soon.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+  background-size: cover;
+}
+.kw.sold_out #logo {
+  background-image: url("../images/750-grey/header-sold-out.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+  background-size: cover;
+}
+.kw.home-b {
+  font-size: 16px;
+  font-weight: normal;
+}
+.kw.home-b .site-title {
+  color: #000;
+}
+.kw.home-b h1, .kw.home-b h2, .kw.home-b h3, .kw.home-b h4, .kw.home-b h5, .kw.home-b h6, .kw.home-b p {
+  font-family: adihausbold, Arial;
+  color: #212121;
+  line-height: 1.4;
+  font-weight: bold;
+}
+.kw.home-b p {
+  font-size: 16px;
+  margin: 1em 0;
+}
+.kw.home-b #description p {
+  color: #ffffff;
+}
+
+.adi-market-DE .kw #shoe .cart .size-select .opener .size,
+.adi-market-AT .kw #shoe .cart .size-select .opener .size,
+.adi-market-RU .kw #shoe .cart .size-select .opener .size {
+  font-size: 15px;
+  padding: 13px 15px;
+}
+
+.adi-market-CZ .kw .btn,
+.adi-market-HU .kw .btn {
+  font-size: 13px;
+}
+
+.adi-market-ES .kw .btn,
+.adi-market-PL .kw .btn,
+.adi-market-RU .kw .btn {
+  font-size: 12px;
+}
+
+.adi-market-DK .kw .btn img {
+  margin-left: 10px;
+}
+
+.adi-market-CZ .kw .btn img,
+.adi-market-AT .kw .btn img,
+.adi-market-DE .kw .btn img,
+.adi-market-AR .kw .btn img,
+.adi-market-CL .kw .btn img,
+.adi-market-CO .kw .btn img,
+.adi-market-ES .kw .btn img,
+.adi-market-LA .kw .btn img,
+.adi-market-MX .kw .btn img,
+.adi-market-PA .kw .btn img,
+.adi-market-PE .kw .btn img,
+.adi-market-VE .kw .btn img,
+.adi-market-FR .kw .btn img,
+.adi-market-CF .kw .btn img,
+.adi-market-HU .kw .btn img,
+.adi-market-IT .kw .btn img,
+.adi-market-JP .kw .btn img,
+.adi-market-NL .kw .btn img,
+.adi-market-PL .kw .btn img,
+.adi-market-BR .kw .btn img,
+.adi-market-PT .kw .btn img,
+.adi-market-RU .kw .btn img,
+.adi-market-SK .kw .btn img,
+.adi-market-SE .kw .btn img,
+.adi-market-TR .kw .btn img {
+  display: none;
+}
+
+.adi-market-CN .kw,
+.adi-market-HK .kw,
+.adi-market-TW .kw,
+.adi-market-JP .kw,
+.adi-market-KR .kw,
+.adi-market-RU .kw {
+  font-family: adineueBold, Arial;
+}
+.adi-market-CN .kw .btn,
+.adi-market-HK .kw .btn,
+.adi-market-TW .kw .btn,
+.adi-market-JP .kw .btn,
+.adi-market-KR .kw .btn,
+.adi-market-RU .kw .btn {
+  font-family: adineueBold, Arial;
+}
+.adi-market-CN.home-b h1, .adi-market-CN.home-b h2, .adi-market-CN.home-b h3, .adi-market-CN.home-b h4, .adi-market-CN.home-b h5, .adi-market-CN.home-b h6, .adi-market-CN.home-b p,
+.adi-market-HK.home-b h1,
+.adi-market-HK.home-b h2,
+.adi-market-HK.home-b h3,
+.adi-market-HK.home-b h4,
+.adi-market-HK.home-b h5,
+.adi-market-HK.home-b h6,
+.adi-market-HK.home-b p,
+.adi-market-TW.home-b h1,
+.adi-market-TW.home-b h2,
+.adi-market-TW.home-b h3,
+.adi-market-TW.home-b h4,
+.adi-market-TW.home-b h5,
+.adi-market-TW.home-b h6,
+.adi-market-TW.home-b p,
+.adi-market-JP.home-b h1,
+.adi-market-JP.home-b h2,
+.adi-market-JP.home-b h3,
+.adi-market-JP.home-b h4,
+.adi-market-JP.home-b h5,
+.adi-market-JP.home-b h6,
+.adi-market-JP.home-b p,
+.adi-market-KR.home-b h1,
+.adi-market-KR.home-b h2,
+.adi-market-KR.home-b h3,
+.adi-market-KR.home-b h4,
+.adi-market-KR.home-b h5,
+.adi-market-KR.home-b h6,
+.adi-market-KR.home-b p,
+.adi-market-RU.home-b h1,
+.adi-market-RU.home-b h2,
+.adi-market-RU.home-b h3,
+.adi-market-RU.home-b h4,
+.adi-market-RU.home-b h5,
+.adi-market-RU.home-b h6,
+.adi-market-RU.home-b p {
+  font-family: adineueBold, Arial;
+}
+.adi-market-CN #shoe .cart .price,
+.adi-market-HK #shoe .cart .price,
+.adi-market-TW #shoe .cart .price,
+.adi-market-JP #shoe .cart .price,
+.adi-market-KR #shoe .cart .price,
+.adi-market-RU #shoe .cart .price {
+  font-family: adineueBold, Arial;
+}
+
+/* INCLUDE RESPONSIVE STYLES */
+@media screen and (min-width: 640px) {
+  .custom-c .top .menu {
+    display: block;
+  }
+  .custom-c .top .menu a {
+    font-weight: bold;
+    padding: 20px 5px 12px;
+    transition: background 0.4s;
+  }
+  .custom-c .top .logo {
+    /* width: 156px; 
+    padding: 11px 3% 0;*/
+	padding: 10px;
+  }
+
+  .kw #logo {
+    background-position: center top;
+  }
+  .kw #logo > .inner {
+    padding: 1px 20px 230px;
+    width: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal a.close {
+    right: 50px;
+    top: 40px;
+  }
+
+  .kw {
+    font-size: 21px;
+    /* Work around and conflict fix with Adidas CSS
+     * Only for Type B when Adidas DW headers are used
+     */
+  }
+  .kw .btn {
+    padding: 13px 0;
+    font-size: 16px;
+    min-width: 150px;
+  }
+  .kw .btn img {
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+  }
+  .kw .btn-grp .btn {
+    min-width: 100px;
+    padding: 13px 0;
+  }
+  .kw #logo > .inner {
+    text-align: left;
+    padding: 40px 20px 380px;
+    width: auto;
+  }
+  .kw #logo .site-title {
+    font-size: 27px;
+    margin: 40px 0;
+  }
+  .kw #intro > .inner,
+  .kw #shoe > .inner {
+    text-align: left;
+  }
+  .kw #intro {
+    float: left;
+    width: 41%;
+  }
+  .kw #intro > .inner {
+    text-align: left;
+  }
+  .kw #intro .name,
+  .kw #intro .made-by {
+    font-size: 27px;
+  }
+  .kw #gallery {
+    float: right;
+    width: 59%;
+  }
+  .kw #gallery > .inner {
+    padding: 0 0 40px 5%;
+    width: 95%;
+  }
+  .kw #gallery .owl-page {
+    width: 10px;
+    height: 10px;
+    transition: opacity 0.5s, background 0.5s;
+  }
+  .kw #gallery .owl-page:hover {
+    opacity: 0.7;
+  }
+  .kw #gallery .owl-controls {
+    position: relative;
+  }
+  .kw #gallery .owl-prev,
+  .kw #gallery .owl-next {
+    display: block;
+    background-color: transparent;
+    background-image: url("../images/gallery-arrows.png");
+    width: 8px;
+    height: 13px;
+    margin: 0;
+    text-indent: -99999px;
+    top: 9px;
+    position: absolute;
+    transition: opacity 0.5s;
+  }
+  .kw #gallery .owl-prev:hover,
+  .kw #gallery .owl-next:hover {
+    opacity: 0.7;
+  }
+  .kw #gallery .owl-prev {
+    left: 37%;
+  }
+  .kw #gallery .owl-next {
+    background-position: -12px 0;
+    right: 37%;
+  }
+  .kw #shoe {
+    float: left;
+    width: 41%;
+  }
+  .kw #shoe .inner {
+    text-align: left;
+  }
+  .kw #shoe h2 {
+    font-size: 27px;
+  }
+  .kw #shoe .state h2 {
+    font-size: 27px;
+  }
+  .kw #shoe .btn-grp {
+    margin: 40px 0 15px;
+  }
+  .kw #shoe .coming_soon p {
+    text-align: left;
+  }
+  .kw #shoe .cart .size-chart {
+    padding: 18px 0 0;
+    font-size: 12px;
+  }
+  .kw #shoe .cart .size-select .opener {
+    height: 45px;
+  }
+  .kw #shoe .cart .size-select .opener .size {
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+  .kw #shoe .cart .size-select .opener img {
+    margin: 18px 15px 0 0;
+  }
+  .kw #shoe .cart .size-select .sizes {
+    width: 132%;
+    top: 45px;
+  }
+  .kw #shoe .cart .size-select .sizes ul {
+    margin: 15px 0 0;
+    padding: 0 15px;
+  }
+  .kw #shoe .cart .size-select .sizes ul li {
+    width: 13.4%;
+    font-size: 16px;
+    margin: 0 2% 2% 0;
+  }
+  .kw #shoe .cart .size-select .sizes ul li:nth-child(4n) {
+    margin-right: 2%;
+  }
+  .kw #shoe .cart .size-select .sizes ul li:nth-child(5n) {
+    margin-right: 0;
+  }
+  .kw #shoe .cart .add-to-cart {
+    padding: 13px 0;
+  }
+  .kw #shoe .cart .spinner {
+    bottom: 16px;
+  }
+  .kw #shoe .cart .btn-grp {
+    margin: 5px 0 15px;
+  }
+  .kw #shoe .no-discount {
+    font-size: 21px;
+  }
+  .kw #description {
+    clear: both;
+  }
+  .kw #signup > .inner {
+    text-align: left;
+    overflow: hidden;
+  }
+  .kw #signup .name,
+  .kw #signup .coming {
+    display: inline-block;
+  }
+  .kw #signup .name {
+    font-size: 27px;
+    margin: 30px auto 0;
+  }
+  .kw #signup .coming {
+    margin: 0 0 0 5px;
+  }
+  .kw #signup .btn {
+    float: right;
+  }
+  .kw.sold_out #logo > .inner {
+    padding: 40px 20px 300px;
+  }
+  .kw.sold_out #signup .copy-wrapper {
+    float: left;
+    width: 75%;
+  }
+  .kw.sold_out #signup .copy-wrapper .name {
+    margin: 12px auto 0;
+  }
+  .kw.sold_out #signup .copy-wrapper .coming {
+    display: block;
+    margin: 0;
+  }
+  .kw.in-line #logo > .inner {
+    padding: 40px 0;
+  }
+  .kw.in-line #logo .spinner {
+    /**padding: 0 20px 0 0;
+    margin: 0px 20px 6px 0px;
+	vertical-align: initial;
+    display: inline-block;**/
+  }
+  .kw.in-line #logo .title {
+    font-size: 27px;
+  }
+  .kw.in-line #intro > .inner {
+    margin: 165px 0 10px;
+  }
+  .kw.in-line #intro .mx-disclaimer {
+    margin: 20px 0 10px;
+  }
+  .kw.home-b {
+    font-size: 21px;
+  }
+  .kw.home-b p {
+    font-size: 21px;
+  }
+
+  .custom-c .bottom .link.hidden {
+    display: block;
+  }
+
+  .adi-market-DE .kw .cart .size-select .opener .size,
+  .adi-market-AT .kw .cart .size-select .opener .size,
+  .adi-market-RU .kw .cart .size-select .opener .size {
+    font-size: 20px;
+    padding: 14px 15px;
+  }
+
+  .adi-market-CZ .kw .btn {
+    font-size: 16px;
+  }
+
+  .adi-market-ES .kw .btn,
+  .adi-market-PL .kw .btn {
+    font-size: 16px;
+  }
+
+  .adi-market-AT .kw .btn img,
+  .adi-market-DE .kw .btn img,
+  .adi-market-AR .kw .btn img,
+  .adi-market-CL .kw .btn img,
+  .adi-market-CO .kw .btn img,
+  .adi-market-LA .kw .btn img,
+  .adi-market-MX .kw .btn img,
+  .adi-market-PA .kw .btn img,
+  .adi-market-PE .kw .btn img,
+  .adi-market-VE .kw .btn img,
+  .adi-market-FR .kw .btn img,
+  .adi-market-CF .kw .btn img,
+  .adi-market-IT .kw .btn img,
+  .adi-market-JP .kw .btn img,
+  .adi-market-NL .kw .btn img,
+  .adi-market-BR .kw .btn img,
+  .adi-market-PT .kw .btn img,
+  .adi-market-SK .kw .btn img,
+  .adi-market-SE .kw .btn img,
+  .adi-market-TR .kw .btn img {
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 950px) {
+  .custom-c .top {
+    width: auto;
+    padding: 0 20px;
+  }
+  .custom-c .top .logo {
+    /*padding: 11px 20px 0 0; */
+	padding: 10px;
+  }
+
+  .kw .section > .inner {
+    padding: 20px;
+    width: auto;
+  }
+  .kw .gallery-cart-wrapper > .inner {
+    max-width: 990px;
+  }
+  .kw #gallery {
+    float: right;
+    width: 59%;
+  }
+  .kw #gallery .owl-prev {
+    left: 40%;
+  }
+  .kw #gallery .owl-next {
+    right: 40%;
+  }
+  .kw #shoe .coming_soon p {
+    max-width: 100%;
+    margin: 0 0 20px;
+  }
+}

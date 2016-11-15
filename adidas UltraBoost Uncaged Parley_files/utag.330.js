@@ -1,0 +1,5 @@
+//tealium universal tag - utag.330 ut4.0.201611041655, Copyright 2016 Tealium.com Inc. All Rights Reserved.
+try{(function(id,loader){var u={"id":id};utag.o[loader].sender[id]=u;if(utag.ut===undefined){utag.ut={};}
+u.ev={"view":1};u.map={};u.extend=[];u.send=function(a,b){if(u.ev[a]||u.ev.all!==undefined){utag.DB("send:330");utag.DB(b);var c,d,e,f;u.data={"confid":"q8k41xnja"};utag.DB("send:330:EXTENSIONS");utag.DB(b);for(d in utag.loader.GV(u.map)){if(b[d]!==undefined&&b[d]!==""){e=u.map[d].split(",");for(f=0;f<e.length;f++){u.data[e[f]]=b[d];}}}
+utag.DB("send:330:MAPPINGS");utag.DB(u.data);if(!u.data.confid){utag.DB(u.id+": Tag not fired: Required attribute not populated");return;}
+window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);(function(){var k=document.createElement('script');k.type='text/javascript';k.async=true;k.src=(location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag/"+u.data.confid+".js";var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);}());utag.DB("send:330:COMPLETE");}};utag.o[loader].loader.LOAD(id);}("330","adidas.adidasglobal"));}catch(error){utag.DB(error);}
